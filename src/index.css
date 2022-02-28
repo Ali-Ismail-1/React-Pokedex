@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.outerBlock {
+  border: 2px solid #000; 
+  width: 50%;
+  background-color:#730a0a;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.innerBlock {
+  margin: 50px auto;
+  border : 0px solid #000;
+  padding : 10px;
+  width: 50%;
+  background-color: gray;
+}
+
+.pokeImage {
+  border-bottom: 1px solid #000;;
+}
+
+
